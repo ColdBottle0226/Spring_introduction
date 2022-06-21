@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-@Service    // MemberService는 순수 자바 클래스라 스프링이 모른다.
+//@Service    // MemberService는 순수 자바 클래스라 스프링이 모른다.
 public class MemberService {
 
     private final MemberRepository memberRepository;
